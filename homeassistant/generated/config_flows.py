@@ -366,6 +366,7 @@ FLOWS = {
         "surepetcare",
         "switchbot",
         "switcher_kis",
+        "syncsign",
         "syncthing",
         "syncthru",
         "synology_dsm",

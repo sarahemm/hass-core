@@ -1566,6 +1566,9 @@ sunwatcher==0.2.1
 # homeassistant.components.surepetcare
 surepy==0.7.2
 
+# homeassistant.components.syncsign
+syncsign==0.1.0
+
 # homeassistant.components.system_bridge
 systembridgeconnector==3.4.4
 

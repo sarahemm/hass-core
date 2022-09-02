@@ -2293,6 +2293,9 @@ surepy==0.7.2
 # homeassistant.components.swiss_hydrological_data
 swisshydrodata==0.1.0
 
+# homeassistant.components.syncsign
+syncsign==0.1.0
+
 # homeassistant.components.synology_srm
 synology-srm==0.2.0
 
