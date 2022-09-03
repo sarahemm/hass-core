@@ -1,7 +1,7 @@
 """The SyncSign eInk Display Integration integration."""
 from __future__ import annotations
 
-import syncsign
+import syncsign.client
 
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import Platform
@@ -10,7 +10,7 @@ from homeassistant.exceptions import ConfigEntryNotReady
 
 from .const import DOMAIN
 
-PLATFORMS: list[Platform] = [Platform.SENSOR]
+PLATFORMS: list[Platform] = [Platform.BINARY_SENSOR]
 
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
